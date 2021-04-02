@@ -1,7 +1,11 @@
+# Fortune telling 8-ball with if/else statements
+
 import random
 
+# Name and question...
 name = "Josh"
 question = "Am i alive?"
+
 answer = ""
 randomNumber = random.randint(1,9)
 
@@ -29,6 +33,6 @@ else:
 print(name + " asks: " + question)
 print("Magic balls answer: " + answer)
 
-# Try this in a Python emulator instead os static variables above?
+# Try this in a Python emulator instead of static variables above?
 # name = input("What is your name? ")
 # question = input("What is your question? ")
