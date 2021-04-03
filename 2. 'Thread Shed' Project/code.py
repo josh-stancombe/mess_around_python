@@ -1,3 +1,4 @@
+# Raw data provided:
 daily_sales = \
 """Edith Mcbride   ;,;$1.21   ;,;   white ;,; 
 09/15/17   ,Herbert Tran   ;,;   $7.29;,; 
@@ -106,6 +107,7 @@ green&white;,;09/15/17,   Gail Phelps   ;,;$30.52
 ;,;   $22.66   ;,; green&white&blue;,;09/15/17"""
 
 #------------------------------------------------
+
 # -- Break up dataset into customers, sales and threads_sold --
 
 daily_sales_replaced = daily_sales.replace(";,;","//")
