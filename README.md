@@ -1,4 +1,4 @@
-# mess_around_python
+# python_practice
 Python concepts - playing around with concepts / lessons learned in Python3.
 
 1. Magic 8-Ball - Using general syntax and control flow
